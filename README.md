@@ -1,5 +1,4 @@
 # Image-Trimmer-for-Profile-Photos
-## Description
 System that uses the Canvas to manipulate images and cut them in a circular way.
 
 ## Gallery
