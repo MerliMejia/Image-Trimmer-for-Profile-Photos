@@ -1,0 +1,62 @@
+#canvas
+{
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 100%;
+    border-color: rgb(78, 78, 78);
+    background-color: darkgray;
+    cursor: move;
+}
+#archivo
+{
+    visibility: hidden;
+}
+
+#archivoFile
+{
+    cursor: pointer;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    transition: all, 0.2s;
+}
+#archivoFile:hover{
+    transform: translateY(-3px)
+}
+
+#mostrar
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+    border-color: rgb(78, 78, 78);
+    width: 127px;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: all, 0.2s;
+}
+
+#mostrar:hover
+{
+    transform: translateY(-3px)
+}
+
+#imagenMostrada
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+
+}
